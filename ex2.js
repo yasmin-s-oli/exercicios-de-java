@@ -1,15 +1,3 @@
-let nota1 = 10
-let nota2 = 4
-let nota3 = 4
-
-
-let média = (nota1+nota2+nota3)/3
-console.log(`A sua média é ${média}`)
-
-if (média >=7){
-    console.log(`você esta aprovado`)
-}
-else {
-    console.log(`você foi reprovado`)
-    
-}
+const numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const parteNumeros = numeros.slice(3, 7); // Pega os índices 3 a 7 (o último índice não é incluído)
+console.log(parteNumeros); // [4, 5, 6, 7, 8]
